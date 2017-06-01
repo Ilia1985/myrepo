@@ -1,0 +1,7 @@
+<?
+$MESS["MYREVIEWS_FORM_HLBLOCK_NAME"] = "HLBlock Name";
+$MESS["MYREVIEWS_FORM_REVIEW_TYPE"] = "Review type";
+$MESS["MYREVIEWS_FORM_ELEMENT_ID"] = "IBlock Element ID";
+$MESS["MYREVIEWS_FORM_REVIEWS_LIST_AJAX_REFRESH"] = "Ajax refresh reviews list";
+
+?>

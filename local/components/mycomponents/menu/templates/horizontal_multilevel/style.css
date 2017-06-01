@@ -1,0 +1,195 @@
+/**Top menu**/
+.horizontal-multilevel-menu, .horizontal-multilevel-menu ul
+{
+	margin:0; 
+	padding:0;	
+	min-height: 31px;
+	width:100%;
+	list-style:none;
+	font-size:11px;
+	float:left;
+	/*font-size:90%*/
+}
+
+.horizontal-multilevel-menu
+{
+    background: #159ebb;
+}
+
+/*Links*/
+.horizontal-multilevel-menu a
+{
+	font-size: 15px;
+	display:block;
+	padding: 5px 10px;
+	/*padding:0.3em 0.8em;*/
+	text-decoration:none;
+	text-align:center;
+}
+
+.horizontal-multilevel-menu li
+{
+	float:left;
+}
+
+/*Root items*/
+.horizontal-multilevel-menu li a.root-item
+{
+	color:#fff;
+	font-weight:bold;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+/*Root menu selected*/
+.horizontal-multilevel-menu li a.root-item-selected
+{
+	background: #44b1c9;
+	color:#fff;
+	font-weight:bold;
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
+
+/*Root items: hover*/
+.horizontal-multilevel-menu li:hover a.root-item
+{
+	background: #44b1c9;
+	color:#fff;
+}
+
+/*Item-parents*/
+.horizontal-multilevel-menu a.parent
+{
+	background: url(images/arrow.gif) center right no-repeat;
+}
+
+/*Denied items*/
+.horizontal-multilevel-menu a.denied
+{
+	background: url(images/lock.gif) center right no-repeat;
+}
+
+/*Child-items: hover*/
+.horizontal-multilevel-menu li:hover, .horizontal-multilevel-menu li.jshover
+{
+	color:#fff;
+}
+
+/*Child-items selected*/
+.horizontal-multilevel-menu li.item-selected
+{
+	background:#D6D6D6;
+	color:#fff;
+}
+
+/*Sub-menu box*/
+.horizontal-multilevel-menu .sub-menu-container
+/*.horizontal-multilevel-menu>li>div>ul*/
+{
+	position:absolute;
+	/*top:-999em;*/
+	top:auto;
+	display: none;
+	z-index:500;
+	height:auto;
+	width: 250px;
+	background:#FFF;
+	border: 1px solid #C1C1C1;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.horizontal-multilevel-menu .sub-menu-container>ul
+{
+	background:#F5F5F5;
+	border:1px solid #C1C1C1;
+	width: 100%;
+	box-sizing: border-box;
+}
+.horizontal-multilevel-menu .sub-menu-container.show-item
+{
+	width: 400px;
+}
+.horizontal-multilevel-menu .sub-menu-container.show-item>ul
+{
+	width: 50%;
+}
+
+.horizontal-multilevel-menu .item-container {
+    padding: 5px 15px 5px;
+    box-sizing: border-box;
+    position: relative;
+	float: right;
+    width: 50%;
+	color: rgb(79, 79, 79);
+	text-align: center;
+}
+.horizontal-multilevel-menu .item-container a
+{
+	display: block;
+	padding: 0;
+}
+.horizontal-multilevel-menu .item-container img {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #e7e9ea;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.horizontal-multilevel-menu ul ul 
+{
+	margin-left: 10px;
+} 
+/*Sub-menu item box*/
+.horizontal-multilevel-menu li li
+{
+	width:100%;
+}
+
+/*Item link*/
+.horizontal-multilevel-menu li ul a
+{
+	text-align:left;
+}
+
+/*Items text color & size */
+.horizontal-multilevel-menu li a,
+.horizontal-multilevel-menu li:hover li a,
+.horizontal-multilevel-menu li:hover li:hover li a,
+.horizontal-multilevel-menu li:hover li:hover li:hover li a
+{
+	color:#4F4F4F;
+	font-weight:bold;
+}
+
+/*Items text color & size: hover*/
+.horizontal-multilevel-menu li:hover li:hover a,
+.horizontal-multilevel-menu li:hover li:hover li:hover a,
+.horizontal-multilevel-menu li:hover li:hover li:hover li:hover a
+{
+	color:#4F4F4F;
+}
+
+/*.horizontal-multilevel-menu li ul ul
+{
+	margin: -31px 0 0 179px;
+
+}*/
+
+
+
+.horizontal-multilevel-menu>li:hover  .sub-menu-container
+{
+	/*z-index:1000;
+	top:auto;*/
+	display: block;
+}
+
+div.menu-clear-left
+{
+	clear:left;
+}

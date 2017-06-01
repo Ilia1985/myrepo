@@ -1,0 +1,26 @@
+#myreviewsList h2
+{
+	font-size: 30px;
+	font-weight: bold;
+}
+#myreviewsList .review
+{
+	overflow: hidden;
+	border-top: 1px solid #ccc;
+}
+#myreviewsList .review:last-of-type
+{
+	border-bottom: 1px solid #ccc;
+}
+#myreviewsList p{
+	font-size: 14px;
+	margin: 10px 0;
+}
+#myreviewsList .data{
+	font-size: 12px;
+	font-style: italic;
+	margin-right: 10px;
+}
+#myreviewsList .autor{
+	font-weight: bold;
+}

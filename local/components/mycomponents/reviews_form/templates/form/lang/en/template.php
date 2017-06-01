@@ -1,0 +1,7 @@
+<?
+$MESS["MYREVIEWS_FORM_TITLE"] = "Review Form";
+$MESS["MYREVIEWS_FORM_NAME"] = "Name";
+$MESS["MYREVIEWS_FORM_REVIEW"] = "Review";
+$MESS["MYREVIEWS_FORM_SUBMIT"] = "Submit";
+
+?>

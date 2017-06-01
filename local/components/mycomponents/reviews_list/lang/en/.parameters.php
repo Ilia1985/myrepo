@@ -1,0 +1,6 @@
+<?
+$MESS["MYREVIEWS_LIST_HLBLOCK_NAME"] = "HLBlock Name";
+$MESS["MYREVIEWS_LIST_REVIEW_TYPE"] = "Review type";
+$MESS["MYREVIEWS_LIST_ELEMENT_ID"] = "IBlock Element ID";
+
+?>
